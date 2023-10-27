@@ -87,7 +87,7 @@ proxy-groups:
   - {name: 📟 电报消息, <<: *a3}
   - {name: 🐦 推特服务, <<: *a3}
   - {name: 🎮 游戏平台, <<: *a3}
-  - {name: 💚 bing chat, <<: *a3}
+  - {name: 💚 bing, <<: *a3}
   - {name: 🆎 AdBlock, type: select, proxies: [REJECT]}
   - {name: 🐟 兜底分流, <<: *a3}
   
@@ -121,7 +121,7 @@ rule-providers:
   
  # 分流Policy 
 rules:
-  - DOMAIN-SUFFIX,edgeservices.bing.com,💚 bing chat 
+  - DOMAIN-SUFFIX,bing.com,💚 bing
   - DOMAIN-SUFFIX,reaxys.com,DIRECT
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
