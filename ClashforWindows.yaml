@@ -122,6 +122,7 @@ rule-providers:
  # 分流Policy 
 rules:
   - DOMAIN-SUFFIX,bing.com,💚 bing
+  - DOMAIN-SUFFIX,pubs.acs.org,DIRECT
   - DOMAIN-SUFFIX,reaxys.com,DIRECT
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
