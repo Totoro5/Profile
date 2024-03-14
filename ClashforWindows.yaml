@@ -69,7 +69,7 @@ i:    &a7 {type: http,     behavior: ipcidr,    interval: 86400}
 proxy-providers:
   Subscribe:
     <<: *a1
-    url: 
+    url: https://t.me/ddgksf2021.yaml
     # URL后面填写格式1[单一订阅]: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露]
     # URL后面填写格式2[多个订阅]：https://api.nexconvert.com/sub?target=clash&url=请手动填入你的订阅(多机场订阅用|分割即可)&emoji=true&list=true&new_name=true&udp=false
     path: ./proxy_providers/tmp.yaml
@@ -82,10 +82,8 @@ proxy-groups:
   - {name: 🍎 苹果服务, <<: *a3}
   - {name: 📺 哔哩哔哩, type: select, proxies: [DIRECT, 🇭🇰 香港节点, 🇨🇳 台湾节点]}
   - {name: 🤖 OpenAi,   type: select, proxies: [🇺🇲 美国节点]}
-  - {name: 💚 bing, <<: *a3}
   - {name: 🎬 国际媒体, <<: *a3}
   - {name: 🌌 谷歌服务, <<: *a3}
-  - {name: 👀 Microsoft, <<: *a3}
   - {name: 📟 电报消息, <<: *a3}
   - {name: 🐦 推特服务, <<: *a3}
   - {name: 🎮 游戏平台, <<: *a3}
@@ -122,9 +120,6 @@ rule-providers:
   
  # 分流Policy 
 rules:
-  - DOMAIN-SUFFIX,bing.com,💚 bing
-  - DOMAIN-SUFFIX,pubs.acs.org,DIRECT
-  - DOMAIN-SUFFIX,reaxys.com,DIRECT
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Download,DIRECT
