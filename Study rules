@@ -1,0 +1,13 @@
+# NAME: Study
+# AUTHOR: Alen
+# UPDATED: 2024-10-05
+# DOMAIN: 4
+# DOMAIN-KEYWORD: 0
+# DOMAIN-SUFFIX: 0
+# PROCESS-NAME: 0
+# TOTAL: 4
+payload:
+- DOMAIN,reaxys.com
+- DOMAIN,pubs.rsc.org
+- DOMAIN,onlinelibrary.wiley.com
+- DOMAIN,pubs.acs.org
