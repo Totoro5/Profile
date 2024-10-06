@@ -20,6 +20,9 @@ payload:
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,sydney.bing.com
   - DOMAIN,www.bing.com
+  - DOMAIN,edgeservices.bing.com
+  - DOMAIN,edge.microsoft.com
+
 
   # Gemini
   - DOMAIN,bard.google.com
