@@ -11,3 +11,5 @@ payload:
 - DOMAIN-SUFFIX,pubs.rsc.org
 - DOMAIN-SUFFIX,onlinelibrary.wiley.com
 - DOMAIN-SUFFIX,pubs.acs.org
+- DOMAIN-SUFFIX,bing.com
+- DOMAIN-SUFFIX,microsoft.com
